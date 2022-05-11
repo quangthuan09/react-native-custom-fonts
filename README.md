@@ -1,8 +1,8 @@
-# react-native-custom-fonts
+# react-native-custom-fonts-ver1
 Use dynamic fonts specified via a network location, instead of managing them in your native builds!
 
 <p align="center">
-  <img src="./bin/out.gif" alt="react-native-custom-fonts" width="400" height="800">
+  <img src="./bin/out.gif" alt="react-native-custom-fonts-ver1" width="400" height="800">
 </p>
 
 ## 🚀 Getting Started
@@ -10,18 +10,18 @@ Use dynamic fonts specified via a network location, instead of managing them in 
 **>=0.60.0**
 
 ```bash
-yarn add react-native-custom-fonts # or npm install --save react-native-custom-fonts
+yarn add react-native-custom-fonts-ver1 # or npm install --save react-native-custom-fonts-ver1
 ```
 
 Then rebuild your app. On iOS, be sure to `pod install` your cocoapods in your app's `/ios` directory.
 
 **<=0.59.X**
 
-Using [`yarn`](https://www.npmjs.com/package/react-native-custom-fonts):
+Using [`yarn`](https://www.npmjs.com/package/react-native-custom-fonts-ver1):
 
 ```bash
-yarn add react-native-custom-fonts
-react-native link react-native-custom-fonts
+yarn add react-native-custom-fonts-ver1
+react-native link react-native-custom-fonts-ver1
 ```
 
 ## Breaking Changes
@@ -47,7 +47,7 @@ react-native run-ios     # run on ios
 import React from "react";
 import PropTypes from "prop-types";
 import {View, Text} from "react-native";
-import CustomFontsProvider, {useCustomFont} from "react-native-custom-fonts";
+import CustomFontsProvider, {useCustomFont} from "react-native-custom-fonts-ver1";
 
 const fontFaces = {
   // XXX: Specify the local name of your font. You'll use this to refer to it via the useCustomFont hook.
